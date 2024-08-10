@@ -1,4 +1,3 @@
-output "instance_public_ip" {
-  value = aws_instance.t2_micro.public_ip
+output "instance_private_ip" {
+  value = aws_instance.t2_micro.private_ip
 }
-
